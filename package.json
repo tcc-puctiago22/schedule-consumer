@@ -1,0 +1,32 @@
+{
+  "name": "schedule-consumer",
+  "version": "1.0.0",
+  "description": "tcc puc sisa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcc-puctiago/schedule-api.git"
+  },
+  "author": "tiagobrito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tcc-puctiago/schedule-api/issues"
+  },
+  "homepage": "https://github.com/tcc-puctiago/schedule-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-actuator": "^1.8.2",
+    "kafkajs": "^2.2.0",
+    "mongoose": "^5.8.10",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
